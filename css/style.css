@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&family=Ubuntu&display=swap');
+
+:root {
+    --vermelho-logo: #FE4552;
+    --cinza-backgrund: #101823;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;  
+    height: 10000px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cinza-backgrund);
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+
+.header .logo {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.logo .logo_txt {
+    margin-left: 5px;
+    color: var(--vermelho-logo);
+}
+
+.header .menu {
+    margin-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header .title {
+    text-decoration: none;
+    color: var(--vermelho-logo);
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: var(--vermelho-logo);
+    font-size: 20px;
+    transition: 0.5s;
+    margin: 3px;
+}
+
+.menu a:hover {
+    background-color: var(--vermelho-logo);
+    color: var(--cinza-backgrund);
+    border-radius: 3px;
+}
+
+.banner {
+    height: 95vh;
+    background-image: url(../images/intro_valorant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.download {
+    font-size: 3.1rem;
+    padding: 20px;
+    color: var(--vermelho-logo);
+    background-color: var(--cinza-backgrund);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.download:hover {
+    color: var(--cinza-backgrund);
+    background-color: var(--vermelho-logo);
+    font-size: 3.5rem;
+}
+
+.banner p {
+    color: var(--vermelho-logo);
+    background-color: var(--cinza-backgrund);
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.arsenal {
+    background-color: var(--cinza-backgrund);
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid var(--vermelho-logo);
+}
+
+.arsenal .img_arsenal {
+    width: 40%;
+    border: 2px solid var(--vermelho-logo);
+    border-radius: 3px;
+}
+
+.text_arsenal {
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_arsenal h2 {
+    color: var(--vermelho-logo);
+    font-size: 1.8rem;
+}
+
+.link_arsenal {
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--vermelho-logo);
+    color: var(--cinza-backgrund);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.link_arsenal:hover {
+    background-color: var(--cinza-backgrund);
+    color: var(--vermelho-logo);
+    border: 2px solid var(--vermelho-logo);
+    font-size: 1.8rem;
+}
