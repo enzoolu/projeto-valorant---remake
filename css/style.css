@@ -94,16 +94,6 @@ ul {
     font-size: 3.5rem;
 }
 
-.banner p {
-    color: var(--vermelho-logo);
-    background-color: var(--cinza-backgrund);
-    font-size: 1.3rem;
-    font-weight: 900;
-    margin-top: 15px;
-    padding: 5px;
-    border-radius: 5px;
-}
-
 .sobre .texto {
     height: 10000px;
     display: flex;
