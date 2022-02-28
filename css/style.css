@@ -150,7 +150,8 @@ ul {
     font-size: 1.8rem;
 }
 
-.sobre {
+.sobre .texto {
+    height: 10000px;
     display: flex;
     flex-direction: column;
     padding: 35px;
@@ -159,14 +160,14 @@ ul {
     align-items: center;
 }
 
-.sobre p {
+.sobre .texto p {
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
     width: 45%;
 }
 
-.sobre hr {
+.sobre .texto hr {
     margin: 25px;
     width: 10%;
 }
