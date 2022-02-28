@@ -104,52 +104,6 @@ ul {
     border-radius: 5px;
 }
 
-.arsenal {
-    background-color: var(--cinza-backgrund);
-    padding: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 3px solid var(--vermelho-logo);
-}
-
-.arsenal .img_arsenal {
-    width: 40%;
-    border: 2px solid var(--vermelho-logo);
-    border-radius: 3px;
-}
-
-.text_arsenal {
-    margin-right: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.text_arsenal h2 {
-    color: var(--vermelho-logo);
-    font-size: 1.8rem;
-}
-
-.link_arsenal {
-    font-size: 1.4rem;
-    font-weight: 900;
-    text-decoration: none;
-    margin-top: 50px;
-    padding: 30px;
-    background-color: var(--vermelho-logo);
-    color: var(--cinza-backgrund);
-    border-radius: 3px;
-    transition: 0.5s;
-}
-
-.link_arsenal:hover {
-    background-color: var(--cinza-backgrund);
-    color: var(--vermelho-logo);
-    border: 2px solid var(--vermelho-logo);
-    font-size: 1.8rem;
-}
-
 .sobre .texto {
     height: 10000px;
     display: flex;
