@@ -57,7 +57,7 @@ ul {
     padding: 20px;
     color: var(--vermelho-logo);
     font-size: 20px;
-    transition: 0.4s;
+    transition: 0.2s;
     margin: 3px;
 }
 
@@ -132,5 +132,5 @@ ul {
 }
 
 .sobre .imagens img:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
