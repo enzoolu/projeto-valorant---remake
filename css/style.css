@@ -4,6 +4,8 @@
     --vermelho-logo: #FE4552;
     --cinza-backgrund: #101823;
     --branco: #fff;
+    --scroll-bar: #000000; 
+    --scroll-bar-backgrund: #1f252e;
 }
 
 * {
@@ -133,4 +135,17 @@ ul {
 
 .sobre .imagens img:hover {
     transform: scale(1.02);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--scroll-bar);
+}
+
+::-webkit-scrollbar-track-piece {
+    background: var(--scroll-bar-backgrund);
 }
