@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&family=Ubuntu&display=swap');
-
 :root {
     --vermelho-logo: #FE4552;
     --cinza-backgrund: #101823;
@@ -135,17 +133,4 @@ ul {
 
 .sobre .imagens img:hover {
     transform: scale(1.02);
-}
-
-::-webkit-scrollbar {
-    width: 15px;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: var(--scroll-bar);
-}
-
-::-webkit-scrollbar-track-piece {
-    background: var(--scroll-bar-backgrund);
 }
