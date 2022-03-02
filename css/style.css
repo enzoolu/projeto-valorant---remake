@@ -24,6 +24,7 @@ body {
     flex-wrap: wrap;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .header .logo {
@@ -127,4 +128,9 @@ ul {
     border-radius: 3px;
     width: 95%;
     margin: 10px auto;
+    transition: 0.2s;
+}
+
+.sobre .imagens img:hover {
+    transform: scale(1.03);
 }
